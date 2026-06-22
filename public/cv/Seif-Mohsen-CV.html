@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seif Mohsen - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #0891b2;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 32px;
+            color: #0891b2;
+            margin-bottom: 5px;
+        }
+        
+        .title {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            font-size: 13px;
+            color: #666;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .contact-info a {
+            color: #0891b2;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #0891b2;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .entry {
+            margin-bottom: 18px;
+            page-break-inside: avoid;
+        }
+        
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        
+        .entry-title {
+            font-weight: bold;
+            color: #1f2937;
+            font-size: 14px;
+        }
+        
+        .entry-date {
+            color: #666;
+            font-size: 13px;
+        }
+        
+        .entry-company {
+            color: #0891b2;
+            font-weight: 600;
+            font-size: 13px;
+        }
+        
+        .entry-subtitle {
+            color: #666;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 5px;
+            font-size: 13px;
+        }
+        
+        li {
+            margin-bottom: 3px;
+            color: #555;
+        }
+        
+        .skills-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .skill-category {
+            margin-bottom: 15px;
+        }
+        
+        .skill-category-title {
+            font-weight: bold;
+            color: #1f2937;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+        
+        .skill-list {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        .cert-item {
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+        
+        .cert-name {
+            font-weight: bold;
+            color: #1f2937;
+        }
+        
+        .cert-issuer {
+            color: #0891b2;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 0;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Seif Mohsen Ibrahim Abdelfattah</h1>
+            <div class="title">Computer Engineering Student & Software Developer</div>
+            <div class="contact-info">
+                <span>📧 <a href="mailto:seif.mohsen@example.com">seif.mohsen@example.com</a></span>
+                <span>📞 +201012544955</span>
+                <span>📍 Egypt</span>
+                <span>🔗 <a href="https://github.com/seifmohsen324/seifmohsen">GitHub</a></span>
+                <span>💼 <a href="https://linkedin.com/in/seifmohsen">LinkedIn</a></span>
+            </div>
+        </header>
+        
+        <section>
+            <div class="section-title">Professional Summary</div>
+            <p style="font-size: 13px; color: #555; line-height: 1.7;">
+                Sophomore Computer Engineering student at Egypt University of Informatics with a passion for AI/ML, cybersecurity, and embedded systems. Combining theoretical knowledge with practical experience to develop efficient, scalable solutions. With internship experience in machine learning and leadership in tech communities, committed to continuous learning and contributing to cutting-edge projects.
+            </p>
+        </section>
+        
+        <section>
+            <div class="section-title">Professional Experience</div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">AI & Machine Learning Intern</div>
+                    <span class="entry-date">2024</span>
+                </div>
+                <div class="entry-company">Elevo Pathway</div>
+                <div class="entry-subtitle">Cairo, Egypt</div>
+                <ul>
+                    <li>Built ML models using Python and scikit-learn</li>
+                    <li>Worked on data preprocessing and feature engineering</li>
+                    <li>Validated model performance on real datasets</li>
+                </ul>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">PR Leader</div>
+                    <span class="entry-date">2023 - 2024</span>
+                </div>
+                <div class="entry-company">ODC Club (Open Data Center)</div>
+                <div class="entry-subtitle">Egypt University of Informatics</div>
+                <ul>
+                    <li>Led and coordinated a team of 10 members</li>
+                    <li>Organized multiple tech events and workshops</li>
+                    <li>Built community around open data initiatives</li>
+                </ul>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">University Ambassador</div>
+                    <span class="entry-date">2023 - Present</span>
+                </div>
+                <div class="entry-company">Egypt University of Informatics</div>
+                <div class="entry-subtitle">Cairo, Egypt</div>
+                <ul>
+                    <li>Mentored and guided new students</li>
+                    <li>Supported student engagement and integration</li>
+                    <li>Represented university at orientation events</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-container">
+                <div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Programming Languages</div>
+                        <div class="skill-list">
+                            C • C++ • Python • JavaScript • HTML • CSS
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Technologies</div>
+                        <div class="skill-list">
+                            Linux • MATLAB • FPGA • Assembly • React • Next.js
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Soft Skills</div>
+                        <div class="skill-list">
+                            Problem Solving • Leadership • Teamwork • Communication • Fast Learner • Time Management
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Specializations</div>
+                        <div class="skill-list">
+                            AI/ML • Cybersecurity • Embedded Systems • Signal Processing
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="section-title">Projects</div>
+            
+            <div class="entry">
+                <div class="entry-title">PhishGuard Browser Extension</div>
+                <div class="entry-subtitle">AI-powered phishing detection browser extension</div>
+                <div class="skill-list">Tech: Python • JavaScript • Machine Learning • Cybersecurity</div>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-title">Sudoku Game with Solving Algorithms</div>
+                <div class="entry-subtitle">Interactive puzzle game with AI solver</div>
+                <div class="skill-list">Tech: C++ • Algorithms</div>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-title">Library Management System</div>
+                <div class="entry-subtitle">Complete library management solution</div>
+                <div class="skill-list">Tech: C++ • Database • System Design</div>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-title">Maze-Solving Autonomous Car</div>
+                <div class="entry-subtitle">Embedded system for autonomous maze solving</div>
+                <div class="skill-list">Tech: Embedded Systems • C • Robotics • FPGA</div>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-title">Additional Projects</div>
+                <div class="entry-subtitle">Noise Filtering System • Linux Task Manager • Akinator-Style Game • Customized Feed Algorithm</div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="section-title">Certifications</div>
+            
+            <div class="cert-item">
+                <span class="cert-name">Cisco CCNA</span> • 
+                <span class="cert-issuer">Cisco (2024)</span>
+                <div class="entry-subtitle">Networking fundamentals and enterprise networking</div>
+            </div>
+            
+            <div class="cert-item">
+                <span class="cert-name">IBM Cybersecurity</span> • 
+                <span class="cert-issuer">IBM (2024)</span>
+                <div class="entry-subtitle">Cybersecurity principles and best practices</div>
+            </div>
+            
+            <div class="cert-item">
+                <span class="cert-name">ITIDA Cybersecurity</span> • 
+                <span class="cert-issuer">ITIDA (2024)</span>
+                <div class="entry-subtitle">Egyptian government cybersecurity certification</div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="section-title">Education</div>
+            <div class="entry">
+                <div class="entry-header">
+                    <div class="entry-title">B.S. Computer Engineering</div>
+                    <span class="entry-date">2023 - 2027</span>
+                </div>
+                <div class="entry-company">Egypt University of Informatics</div>
+                <div class="entry-subtitle">Cairo, Egypt • Currently: Sophomore</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Customer Segmentation preview</title>
+  <desc id="desc">Clusters of customer points grouped by segment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset=".5" stop-color="#10213a"/>
+      <stop offset="1" stop-color="#1e1636"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <rect x="72" y="66" width="656" height="388" rx="28" fill="#020617" opacity=".74" stroke="#38bdf8" stroke-opacity=".3"/>
+  <text x="110" y="122" fill="#bae6fd" font-family="Arial, sans-serif" font-size="24" font-weight="700">Customer Segmentation</text>
+  <g stroke="#334155" stroke-width="2">
+    <path d="M125 378h545M125 160v218"/>
+  </g>
+  <g fill="#22d3ee" opacity=".9">
+    <circle cx="210" cy="300" r="10"/><circle cx="242" cy="282" r="8"/><circle cx="230" cy="330" r="9"/><circle cx="188" cy="334" r="7"/><circle cx="260" cy="316" r="8"/>
+  </g>
+  <g fill="#a855f7" opacity=".9">
+    <circle cx="455" cy="230" r="10"/><circle cx="490" cy="214" r="8"/><circle cx="478" cy="258" r="9"/><circle cx="430" cy="262" r="7"/><circle cx="515" cy="246" r="8"/>
+  </g>
+  <g fill="#34d399" opacity=".9">
+    <circle cx="585" cy="320" r="10"/><circle cx="620" cy="300" r="8"/><circle cx="638" cy="342" r="9"/><circle cx="558" cy="350" r="7"/><circle cx="600" cy="360" r="8"/>
+  </g>
+  <g fill="none" stroke-width="3" stroke-dasharray="10 10">
+    <ellipse cx="226" cy="312" rx="76" ry="58" stroke="#22d3ee"/>
+    <ellipse cx="474" cy="238" rx="78" ry="58" stroke="#a855f7"/>
+    <ellipse cx="602" cy="334" rx="86" ry="62" stroke="#34d399"/>
+  </g>
+  <text x="514" y="122" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="16">K-means clusters</text>
+</svg>

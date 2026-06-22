@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Student Score Prediction preview</title>
+  <desc id="desc">A student score prediction chart with study hours and predicted performance.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset=".5" stop-color="#172033"/>
+      <stop offset="1" stop-color="#10261f"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="0" y1="1" y2="0">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <rect x="76" y="68" width="648" height="384" rx="28" fill="#020617" opacity=".74" stroke="#34d399" stroke-opacity=".32"/>
+  <text x="112" y="124" fill="#bbf7d0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Student Score Prediction</text>
+  <g stroke="#334155" stroke-width="2">
+    <path d="M130 372h540M130 310h540M130 248h540M130 186h540"/>
+  </g>
+  <g fill="url(#bar)">
+    <rect x="164" y="306" width="54" height="66" rx="10"/>
+    <rect x="250" y="276" width="54" height="96" rx="10"/>
+    <rect x="336" y="238" width="54" height="134" rx="10"/>
+    <rect x="422" y="208" width="54" height="164" rx="10"/>
+    <rect x="508" y="172" width="54" height="200" rx="10"/>
+    <rect x="594" y="142" width="54" height="230" rx="10"/>
+  </g>
+  <path d="M180 314c88-34 130-74 205-92 81-20 139-64 232-100" fill="none" stroke="#a855f7" stroke-width="7" stroke-linecap="round"/>
+  <text x="112" y="414" fill="#94a3b8" font-family="Arial, sans-serif" font-size="16">study signals</text>
+  <text x="548" y="414" fill="#94a3b8" font-family="Arial, sans-serif" font-size="16">predicted score</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Loan Approval Prediction preview</title>
+  <desc id="desc">A loan approval prediction interface with applicant signals and approval status.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset=".55" stop-color="#1b2032"/>
+      <stop offset="1" stop-color="#11261f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <rect x="76" y="68" width="648" height="384" rx="28" fill="#020617" opacity=".74" stroke="#22d3ee" stroke-opacity=".3"/>
+  <text x="112" y="125" fill="#bae6fd" font-family="Arial, sans-serif" font-size="24" font-weight="700">Loan Approval Prediction</text>
+  <g fill="#0f172a" stroke="#334155">
+    <rect x="116" y="172" width="270" height="54" rx="12"/>
+    <rect x="116" y="246" width="270" height="54" rx="12"/>
+    <rect x="116" y="320" width="270" height="54" rx="12"/>
+  </g>
+  <text x="140" y="206" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">income score</text>
+  <text x="140" y="280" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">credit history</text>
+  <text x="140" y="354" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="18">loan amount</text>
+  <g stroke="#22d3ee" stroke-width="8" stroke-linecap="round">
+    <path d="M285 199h72"/><path d="M285 273h54"/><path d="M285 347h88"/>
+  </g>
+  <circle cx="555" cy="274" r="92" fill="#064e3b" stroke="#34d399" stroke-width="8"/>
+  <path d="M513 274l30 31 58-70" fill="none" stroke="#bbf7d0" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="555" y="404" fill="#86efac" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">approved probability</text>
+</svg>

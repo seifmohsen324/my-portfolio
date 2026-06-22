@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">ShopNova product landing page preview</title>
+  <desc id="desc">A stylized e-commerce landing page thumbnail.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.5" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#12203a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" values="0 0 0 0 0.1 0 0 0 0 0.75 0 0 0 0 1 0 0 0 .55 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="52" y="48" width="696" height="354" rx="24" fill="#020617" opacity=".72" stroke="#ffffff" stroke-opacity=".12"/>
+  <circle cx="675" cy="95" r="72" fill="#22d3ee" opacity=".12"/>
+  <circle cx="125" cy="360" r="96" fill="#a855f7" opacity=".11"/>
+  <g transform="translate(94 88)">
+    <rect width="612" height="44" rx="14" fill="#0f172a" stroke="#ffffff" stroke-opacity=".1"/>
+    <circle cx="28" cy="22" r="8" fill="#22d3ee"/>
+    <rect x="50" y="16" width="98" height="12" rx="6" fill="#e2e8f0" opacity=".85"/>
+    <rect x="408" y="15" width="48" height="14" rx="7" fill="#64748b" opacity=".65"/>
+    <rect x="474" y="15" width="48" height="14" rx="7" fill="#64748b" opacity=".65"/>
+    <rect x="540" y="11" width="52" height="22" rx="11" fill="url(#accent)"/>
+  </g>
+  <g transform="translate(104 170)">
+    <text x="0" y="0" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">ShopNova</text>
+    <text x="0" y="42" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="20">Product landing page</text>
+    <rect x="0" y="76" width="142" height="42" rx="14" fill="url(#accent)" filter="url(#glow)"/>
+    <rect x="162" y="82" width="104" height="30" rx="15" fill="#0f172a" stroke="#ffffff" stroke-opacity=".16"/>
+  </g>
+  <g transform="translate(458 172)">
+    <rect x="0" y="0" width="172" height="172" rx="28" fill="#111827" stroke="#ffffff" stroke-opacity=".14"/>
+    <path d="M50 74h72l-10 56H60L50 74Z" fill="url(#accent)"/>
+    <path d="M64 74c4-24 40-24 44 0" fill="none" stroke="#e2e8f0" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="64" cy="146" r="7" fill="#e2e8f0"/>
+    <circle cx="108" cy="146" r="7" fill="#e2e8f0"/>
+  </g>
+</svg>

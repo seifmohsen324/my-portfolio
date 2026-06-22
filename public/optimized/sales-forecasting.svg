@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Sales Forecasting preview</title>
+  <desc id="desc">A forecasting dashboard with an upward sales trend line.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#06131f"/>
+      <stop offset=".55" stop-color="#10251f"/>
+      <stop offset="1" stop-color="#1f1632"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#34d399"/>
+      <stop offset=".5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg)"/>
+  <rect x="68" y="68" width="664" height="384" rx="28" fill="#020617" opacity=".72" stroke="#34d399" stroke-opacity=".32"/>
+  <text x="105" y="122" fill="#a7f3d0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Sales Forecasting</text>
+  <text x="105" y="155" fill="#94a3b8" font-family="Arial, sans-serif" font-size="16">historical demand to predicted revenue</text>
+  <g stroke="#334155" stroke-width="2">
+    <path d="M115 360h560M115 300h560M115 240h560M115 180h560"/>
+    <path d="M115 180v180h560"/>
+  </g>
+  <path d="M135 330c65-34 90 5 142-38 45-37 76-13 116-54 46-47 91-16 132-56 42-41 71-26 130-72" fill="none" stroke="url(#line)" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#22d3ee">
+    <circle cx="135" cy="330" r="8"/><circle cx="277" cy="292" r="8"/><circle cx="393" cy="238" r="8"/><circle cx="525" cy="182" r="8"/><circle cx="655" cy="110" r="8"/>
+  </g>
+  <rect x="520" y="82" width="160" height="54" rx="14" fill="#052e2b" stroke="#34d399" stroke-opacity=".5"/>
+  <text x="545" y="116" fill="#6ee7b7" font-family="Arial, sans-serif" font-size="19" font-weight="700">+18% trend</text>
+</svg>
